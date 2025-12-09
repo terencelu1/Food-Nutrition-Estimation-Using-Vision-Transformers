@@ -1,0 +1,13 @@
+pip install torch torchvision torchaudio
+pip install transformers
+pip install segment-anything
+pip install opencv-python
+pip install numpy
+pip install Pillow
+pip install matplotlib
+pip install scikit-image
+pip install scikit-learn
+pip install timm
+pip install opencv-contrib-python
+pip install gradio
+
