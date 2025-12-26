@@ -62,6 +62,21 @@ output/
 *.pem
 config.ini
 secrets.json
+setup_env.ps1
+environment.txt
+
+# 文檔文件（不上傳）
+*.md
+*.pdf
+*.docx
+*.pptx
+
+# 允許 requirements.txt
+!requirements.txt
+
+# 其他 .txt 文件不上傳
+*.txt
+!requirements.txt
 
 # 系統文件
 .DS_Store
