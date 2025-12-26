@@ -44,14 +44,22 @@ weights/
 models/
 
 # 結果文件
-result/
 output/
+
+# 允許 result/ 資料夾中的文件
+!result/
+!result/**
+
+# 圖片文件（一般不上傳，但允許 result/ 中的）
 *.jpg
 *.png
 *.jpeg
 *.gif
 *.bmp
 *.tiff
+!result/**/*.jpg
+!result/**/*.png
+!result/**/*.jpeg
 *.pdf
 *.pptx
 
